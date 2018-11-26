@@ -1,7 +1,7 @@
 'use strict';
 const axios = require('axios'),
     qs = require('qs'),
-    MemcachedModule = require('./MemcachedModule');
+      MemcachedModule = require('./MemcachedModule');
 
 module.exports = class HttpRequest extends MemcachedModule {
 
