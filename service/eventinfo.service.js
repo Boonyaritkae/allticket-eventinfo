@@ -17,7 +17,7 @@ module.exports = class EventInfoService extends HttpRequestModule {
     try {
       resp = await this.getDataMemcached(this.memcachedKey);
       if (resp == null) {
-        resp = await this.createHttp(process.env.URL_EVENT_INFO, {
+        resp = await this.createHttp(process.env.URL_EVENT_TICKET, {
           performId: this.performId
         }).post();
         return resp.data.code == 100 ? resp.data.data : null;
