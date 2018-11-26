@@ -1,5 +1,5 @@
 'use strict'
-const HttpRequestModule = require('../modules/HttpRequestModule');
+const {HttpRequestModule} = require('../modules/HttpRequestModule');
 
 module.exports = class EventInfoService extends HttpRequestModule {
 
