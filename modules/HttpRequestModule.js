@@ -9,7 +9,7 @@ module.exports = class HttpRequest extends MemcachedModule {
         super();
         this.options = {},
             this.options.headers = {
-                "ContextType": "application/x-www-form-urlencoded"
+                 "Content-Type": "application/x-www-form-urlencoded"
             }
         this.options.responseType = "json";
     }
