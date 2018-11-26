@@ -1,0 +1,17 @@
+{
+  "name": "allticket-eventinfo-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "memcached-elasticache": "^1.1.1",
+    "qs": "^6.5.2"
+  }
+}
