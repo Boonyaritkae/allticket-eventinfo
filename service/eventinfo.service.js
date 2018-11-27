@@ -22,7 +22,7 @@ module.exports = class EventInfoService extends HttpRequestModule {
         }).post();
         return resp.data.code == 100 ? resp.data.data : null;
       }
-      return JSON.stringify(resp);
+      return JSON.parse(resp);
     } catch (e) {
       throw e;
     }
